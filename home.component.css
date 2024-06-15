@@ -1,0 +1,65 @@
+/* src/app/documents/home/home.component.css */
+.container {
+    background-color: #f0f8ff; /* Change to your desired background color */
+    padding: 2rem;
+    border-radius: 8px;
+    margin-top: 2rem;
+    text-align: center;
+    width: 600px;
+    margin-bottom: 20px;margin-left: 400px;
+  }
+  
+  .login-container {
+    display: inline-block;
+    text-align: left;
+    margin-top: 2rem;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    margin: 0.5rem 0;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .forgot-password {
+    display: block;
+    margin: 2rem auto 0;
+    background-color: transparent;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  a{
+    display:flex;
+    justify-content:center;
+    margin-top:20px;
+    color:aquamarine;
+    text-align:center;
+  }

@@ -1,0 +1,35 @@
+<div class="container">
+    <h1>Event Booking Form</h1>
+    <form #bookingForm="ngForm" (ngSubmit)="onSubmit(bookingForm)">
+        <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" ngModel required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" ngModel required>
+        </div>
+        <div class="form-group">
+            <label for="mobile">Phone Number</label>
+            <input type="tel" id="mobile" name="mobile" ngModel required>
+        </div>
+        <div class="form-group">
+            <label for="eventDate">Event Date</label>
+            <input type="date" id="eventDate" name="eventDate" ngModel required>
+        </div>
+        <div class="form-group">
+            <label for="eventName">Event Name</label>
+            <input type="text" id="eventName" name="eventName" ngModel required>
+        </div>
+        <div class="form-group">
+            <label for="eventVenue">Event Venue</label>
+            <input type="text" id="eventVenue" name="eventVenue" ngModel required>
+        </div>
+        <div class="form-group">
+            <button type="submit" [disabled]="bookingForm.invalid">Book Now</button>
+        </div>
+    </form>
+    <div *ngIf="showSuccessMessage" class="success-message">
+        Your booking has been successfully submitted!
+    </div>
+</div>

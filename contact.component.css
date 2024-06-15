@@ -1,0 +1,36 @@
+/* src/app/documents/contact/contact.component.css */
+.contact-container {
+    background-color: #f8f9fa;
+    padding: 2rem;
+    border-radius: 8px;
+    margin-top: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .contact-container h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-container p {
+    line-height: 1.6;
+  }
+  
+  .contact-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .contact-container ul li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .contact-container ul li strong {
+    font-weight: bold;
+  }
+  p{
+    font-style: oblique;
+    font-size: 20px;
+  }
+  
